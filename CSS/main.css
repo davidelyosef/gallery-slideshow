@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Anton;
+  src: url(../assets/Anton-Regular.ttf);
+}
+body {
+  margin: 0;
+  font-family: Anton;
+}
+* {
+  box-sizing: border-box;
+}

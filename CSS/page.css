@@ -1,0 +1,35 @@
+.slanted {
+  height: 350px;
+  width: 100%;
+  background-color: #7f90f0;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  position: fixed;
+  top: 0;
+  z-index: -1;
+}
+.ourGallery .btn-outline-info {
+  margin: 5px;
+  padding: 0 0.75rem;
+  width: 80px;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 100px;
+}
+/* color: #475ae2; */
+.ourGallery .btn-outline-info:hover {
+  background-color: #fff;
+  color: #475ae2;
+}
+.ourGallery {
+  margin-top: 5%;
+  color: #fff;
+  text-align: center;
+  width: 40%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.ourGallery .form-control {
+  width: auto;
+  display: inline-block;
+}
